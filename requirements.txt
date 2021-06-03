@@ -105,7 +105,6 @@ ipython == 7.16.1
 ipython_genutils == 0.2.0
 ipywidgets == 7.5.1
 isort == 4.3.21
-itsdangerous= == 1.1.0
 jdcal == 1.4.1
 jedi == 0.17.1
 jinja2 == 2.11.2
