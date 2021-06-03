@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:adding="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename ='style.css')}}">
+    <title>Predict</title>
+</head>
+<body>
+    <header>
+        <span>Spam</span><font>Message</font>
+    </header>
+    <main>
+        <h1> Prediction </h1>
+        <div class="overview">
+            <div class="box1">
+                <span>Enter Your Text Here : </span>
+                <form action = "{{url_for('index')}}" method = "POST">
+                    <input type="text" name = "text" placeholder="Enter the value">
+                    <button type="submit">Predict</button>
+                </form>
+            </div>
+            <div class="box2">
+                <div class="part1"></div>
+
+                <div class="part2"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
